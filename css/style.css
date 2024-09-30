@@ -1,0 +1,26 @@
+body {
+    background-color: #F0DB7F;
+    color: #755D22;
+    font-family: "Noto Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Slab", serif;
+    font-size: 5rem;
+}
+
+header {
+    text-align: center;
+}
+
+#hero, footer {
+    background-color: #D0CAEB;
+    color: #1C4D76;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+#hero img {
+    width: 350px;
+}

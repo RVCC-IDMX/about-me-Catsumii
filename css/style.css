@@ -36,11 +36,16 @@ header {
 
 /* Hobbies */
 
+#hobbies ul{
+    border: 2px solid #1C4D76;
+    max-width: 20;
+    width: 540px;
+}
+
 #hobbies ul li {
     list-style-type: circle;
     background-color: #A4D2EB;
     color: #1C4D76;
-    border-width: 15px;
     padding: 20px;
     width: 500px;
 }
@@ -57,4 +62,22 @@ header {
 
 #gallery figure {
     text-align: center;
+}
+
+#gallery hr {
+    border-top: 2px dashed;
+}
+
+/* Literature */
+
+#lit {
+    padding: 5rem;
+    border: 3rem solid #755D22;
+    border-style: ridge;
+    max-width: 60rem;
+    margin: 2rem;
+}
+
+#lit h2 {
+    font-size: 45px;
 }

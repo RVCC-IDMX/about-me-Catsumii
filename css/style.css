@@ -28,9 +28,13 @@ header {
     
 }
 
+/* Hero section */
+
 #hero img {
     width: 350px;
 }
+
+/* Hobbies */
 
 #hobbies ul li {
     list-style-type: circle;
@@ -39,4 +43,18 @@ header {
     border-width: 15px;
     padding: 20px;
     width: 500px;
+}
+
+/* Photo Gallery */ 
+
+#gallery {
+    border: 3.5px solid #755D22;
+}
+
+#gallery img {
+    max-width: 90%;
+}
+
+#gallery figure {
+    text-align: center;
 }

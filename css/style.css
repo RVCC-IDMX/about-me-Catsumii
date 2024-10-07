@@ -6,7 +6,14 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Roboto Slab", serif;
-    font-size: 5rem;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 header {
@@ -23,4 +30,13 @@ header {
 
 #hero img {
     width: 350px;
+}
+
+#hobbies ul li {
+    list-style-type: circle;
+    background-color: #A4D2EB;
+    color: #1C4D76;
+    border-width: 15px;
+    padding: 20px;
+    width: 500px;
 }

@@ -95,6 +95,18 @@ section#hobbies {
     columns: 40rem;
 }
 
+/* Video */
+
+#video {
+    max-width: 1auto;
+    border: 3.5px solid #755D22;
+    text-align: center;
+}
+
+#video iframe {
+    max-width: 90%;
+}
+
 /* tablet size */
 @media screen and (min-width: 60em) {
     figure {
@@ -108,8 +120,8 @@ section#hobbies {
         align-items: center;
         font-size: 2rem;
         margin-left: 1rem;
+
     }
-}
 
 /* Large screen size*/
 

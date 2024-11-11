@@ -123,6 +123,8 @@ section#hobbies {
 
     }
 
+}
+
 /* Large screen size*/
 
 @media screen and (min-width: 100em) {
@@ -142,4 +144,9 @@ section#hobbies {
     figure {
         display: block;
     }
+}
+
+/* Contact Form */
+#formElements {
+    display: grid;
 }

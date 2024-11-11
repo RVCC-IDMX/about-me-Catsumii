@@ -104,7 +104,7 @@ section#hobbies {
 }
 
 #video iframe {
-    max-width: 90%;
+    max-width: 600px;
 }
 
 /* tablet size */
@@ -149,4 +149,47 @@ section#hobbies {
 /* Contact Form */
 #formElements {
     display: grid;
+    row-gap: 1em;
+}
+
+#contact {
+    padding: 1rem;
+    max-width: 100%;
+    margin: .5rem auto;
+}
+
+fieldset {
+    border: 4px #1C4D76;
+    border-style: dotted;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: #D0CAEB;
+}
+
+legend {
+    background-color: #A4D2EB;
+    padding: 1em;
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+    padding: 1em;
+    font-size: 1rem;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0px;
+}
+
+#contact li {
+    margin: 1rem;
+}
+
+#contact button {
+    background-color: #A4D2EB;
+    color: #1C4D76;
+    border: solid .5px #1C4D76;
+    max-width: 400px;
+    width: 50%;
+    justify-self: center;
 }

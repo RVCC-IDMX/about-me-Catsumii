@@ -67,8 +67,8 @@ main {
 .navbar-links a {
     color: #535353;
     background-attachment: #FFFDD0;
-    font-size: 1.3rem;
-    padding: 1rem 1.25rem;
+    font-size: 1.6rem;
+    padding: .5rem 1rem;
     letter-spacing: 3px;
     text-decoration: none;
     display: inline-block;
@@ -84,3 +84,22 @@ media query for non-mobile nav bar
 min-width set to width of nav elements 
 such that no text wraps 
 */
+
+@media screen and (min-width: 60rem) {
+    
+    .navbar-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;   
+    }
+
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: space-between;
+    }
+}

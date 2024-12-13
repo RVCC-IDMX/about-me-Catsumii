@@ -25,7 +25,7 @@ For the **background color**, I mostly used ` #F0DB7F`, as it was the one that I
 
 
 ## Citations
-When it came to this section of sources leading to any content that I didn't create myself, I couldn't think of any part where I didn't take from someone else. 
+When it came to this section of sources leading to any content that I didn't create myself, I couldn't think of any part where I didn't take from someone else. Logo is made for my art (whenever I do post) and all pictures used are taken by me!
 
 ## License
 Copyright (C) [2024] [Caitlyn Liang]

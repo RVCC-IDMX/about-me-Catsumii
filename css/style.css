@@ -21,52 +21,74 @@ header {
     text-align: center;
 }
 
-#hero, footer {
+#hero {
     background-color: #D0CAEB;
     color: #1C4D76;
     text-align: center;
     padding: 15px;
-    
+    border: 1.5rem solid #D0CAEB;
+    border-style: ridge;
+}
+
+footer {
+    background-color:#FFFDD0;
+    color: #1C4D76;
+    text-align: center;
+    padding: 15px;
 }
 
 /* Hero section */
 
 #hero img {
     width: 400px;
+    max-width: 80%;
     border-radius: 20%;
     border: thick double aliceblue;
 }
 
 /* Hobbies */
 
-section#hobbies {
+#hobbies {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#hobbies ol{
-    border: 2px solid #1C4D76;
-    max-width: 100%;
+#hobbies ul{
+    border: 3px solid #1C4D76;
+    background-color: #A4D2EB;
+    font-size: 15px;
+    max-width: 90%;
     width: 540px;
+    margin: 1.5em;
 }
 
-#hobbies ol li {
+#hobbies ul li {
     list-style-type:circle;
-    background-color: #A4D2EB;
     color: #1C4D76;
     padding: 20px;
-    max-width: 100%
+    max-width: 90%;
 }
+
+#hobbies ol {
+    font-size: 25.5px;
+    text-decoration: underline;
+    max-width: 90%;
+}
+
 
 /* Photo Gallery */ 
 
 #gallery {
+    margin: 2rem;
+    padding: 2rem;
     border: 3.5px solid #755D22;
 }
 
 #gallery img {
     max-width: 100%;
+    border: 10px solid #D0CAEB;
+    border-style: inset;
 }
 
 #gallery figure {
@@ -80,35 +102,39 @@ section#hobbies {
 /* Literature */
 
 #lit {
+    border: 3rem ridge #755D22;
+    max-width: 100%;
     padding: 2rem;
-    border: 3rem solid #755D22;
-    border-style: ridge;
-    max-width: 90rem;
-    margin: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
+
 
 #lit h2 {
     font-size: 45px;
+    text-align: center;
+    border:#755D22 3px;
+    border-style: dotted;
+    background-color: #FFFDD0;
 }
 
-#lit div {
+#lit img {
     max-width: 100%;
-    columns: 40rem;
 }
 
 /* Video */
 
 #video {
-    max-width: 1auto;
+    padding: 2rem;
+    margin: 2rem;
+    max-width: 80%;
     border: 3.5px solid #755D22;
     text-align: center;
 }
 
 #video iframe {
-    max-width: 600px;
+    width: 90rem;
+    height: 50rem;
+    max-width: 80%;
+    align-items: center;
 }
 
 /* tablet size */

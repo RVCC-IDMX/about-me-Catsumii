@@ -25,7 +25,17 @@ For the **background color**, I mostly used ` #F0DB7F`, as it was the one that I
 
 
 ## Citations
-When it came to this section of sources leading to any content that I didn't create myself, I couldn't think of any part where I didn't take from someone else. Logo is made for my art (whenever I do post) and all pictures used are taken by me!
+All images are provided by me (which means they were taken by me!!!)
+
+The sources that I used in the short blog are listed below vvv
+
+#### Blog Sources
+
+https://www.w3schools.com/css/css_image_sprites.asp - intro to sprites, hover effect
+
+https://boringowl.io/en/blog/how-to-optimize-website-performance-with-css-sprites - sprites and reducing loading times
+
+https://css-tricks.com/css-sprites/ - how to create / generate sprites
 
 ## License
 Copyright (C) [2024] [Caitlyn Liang]

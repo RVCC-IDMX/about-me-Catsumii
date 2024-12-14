@@ -30,6 +30,18 @@ main {
     font-size: 1.8rem;
     margin-bottom: 2rem;
     padding: 1rem;
+    position: relative;
+}
+
+.navbar > a {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: #535353;
+    text-decoration: none;
+    background-color: #FFFDD0;
+    font-size: 1.6rem;
+    letter-spacing: 3px;
 }
 
 /* logo */
@@ -79,6 +91,52 @@ main {
     filter: invert(1);
 }
 
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background-color: #FFFDD0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    margin: 0;
+    padding: 0.5rem 0;
+    z-index: 1000;
+    width: 200px; 
+}
+
+/* Dropdown menu items */
+.dropdown-menu li {
+    padding: 0.5rem 1rem;
+}
+
+.dropdown-menu a {
+    display: block;
+    color: #535353;
+    text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f0f0f0;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Smooth dropdown appearance */
+.dropdown-menu {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 /* 
 media query for non-mobile nav bar
 min-width set to width of nav elements 
@@ -95,5 +153,14 @@ such that no text wraps
     .navbar ul {
         display: flex;
         justify-content: space-between;
+    }
+
+    .dropdown-menu {
+        position: static;
+        box-shadow: none;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
     }
 }

@@ -25,17 +25,19 @@ For the **background color**, I mostly used ` #F0DB7F`, as it was the one that I
 
 
 ## Citations
-All images are provided by me (which means they were taken by me!!!)
+All images from the gallery are provided by me (which means they were taken by me!!!)
 
-The sources that I used in the short blog are listed below vvv
-
-#### Blog Sources
+### Blog Sources
 
 https://www.w3schools.com/css/css_image_sprites.asp - intro to sprites, hover effect
 
 https://boringowl.io/en/blog/how-to-optimize-website-performance-with-css-sprites - sprites and reducing loading times
 
 https://css-tricks.com/css-sprites/ - how to create / generate sprites
+
+### Drop down menu
+
+https://codepen.io/webbushka/pen/nmyWwy
 
 ## License
 Copyright (C) [2024] [Caitlyn Liang]
